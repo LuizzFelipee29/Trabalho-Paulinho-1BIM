@@ -33,6 +33,7 @@ public class TrabalhoPaulinho1BIM {
             vetor = Ordenador.selecao(vetor);
         } else {
             System.out.println("Opção inválida");
+            return;
         }
 
         System.out.println("Vetor ordenado: " + Arrays.toString(vetor));
